@@ -13,5 +13,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Expose port 8080
 EXPOSE 8080
 
-# Define the command to run the app (change 'app.py' as per your app's main script)
+# Define the command to run the app (Flask in app.py)
 CMD ["python", "app.py"]
